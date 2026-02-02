@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Multimedia Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+
+        /* Simple CSS animation to highlight a key skill */
+        .skill-highlight {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                background-color: #4CAF50;
+            }
+            50% {
+                transform: scale(1.1);
+                background-color: #45a049;
+            }
+            100% {
+                transform: scale(1);
+                background-color: #4CAF50;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>CHINTAN KUMAR</h1>
+        <p>
+            I am a computer science student with an interest in web technologies.
+            This portfolio showcases my skills using multimedia elements such as
+            video, audio, images, and animation.
+        </p>
+    </header>
+
+    <!-- Video Section -->
+    <section>
+        <h2>Video: Project or Skill Demonstration</h2>
+        <p>
+            The video below demonstrates a skill or project related to web
+            development.
+        </p>
+
+        <video width="640" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the HTML5 video element.
+        </video>
+    </section>
+
+    <!-- Audio Section -->
+    <section>
+        <h2>Audio Introduction</h2>
+        <p>
+            This audio clip provides a brief personal introduction.
+        </p>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the HTML5 audio element.
+        </audio>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section>
+        <h2>Image Gallery</h2>
+        <p>
+            Below is a small gallery of images related to my projects and skills.
+        </p>
+
+        <div class="gallery">
+            <img src="image1.jpeg" alt="Project Image 1">
+            <img src="image2.jpeg" alt="Project Image 2">
+            <img src="image3.jpeg" alt="Project Image 3">
+        </div>
+    </section>
+
+    <!-- Animation Section -->
+    <section>
+        <h2>Key Skill Highlight</h2>
+        <p>
+            The animated element below highlights a key skill using simple CSS
+            animation.
+        </p>
+
+        <div class="skill-highlight">
+            Web Development
+        </div>
+    </section>
+
+</body>
+</html>
